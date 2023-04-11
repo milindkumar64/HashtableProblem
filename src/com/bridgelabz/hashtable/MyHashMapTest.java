@@ -21,10 +21,13 @@ public class MyHashMapTest {
 				value = value + 1;
 
 			hashtable.put(word, value);
-
 		}
 		System.out.println(hashtable);
+		System.out.println(hashtable.remove("avoidable") + " avoidable has been removed ");
+		System.out.println(hashtable);
+
 	}
+
 	public static void main(String[] args) {
 
 		findFrequency();
