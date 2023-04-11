@@ -6,7 +6,8 @@ import java.util.StringTokenizer;
 public class MyHashMapTest {
 
 	public static void findFrequency() {
-		StringTokenizer st = new StringTokenizer("to be or not to be");
+		StringTokenizer st = new StringTokenizer(
+				"Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations");
 		Hashtable<String, Integer> hashtable = new Hashtable<>();
 		String word = null;
 		while (st.hasMoreTokens()) {
@@ -23,9 +24,7 @@ public class MyHashMapTest {
 
 		}
 		System.out.println(hashtable);
-
 	}
-
 	public static void main(String[] args) {
 
 		findFrequency();
